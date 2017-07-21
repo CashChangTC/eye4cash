@@ -1,2 +1,7 @@
 # eye4cash
-Test
+
+## Introduction
+
+Use TensorFlow with CNN to classficate the NTD coin
+
+## 
