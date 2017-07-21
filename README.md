@@ -23,6 +23,14 @@ NTD-50: 253
 3. Execute train file
    python train.py
    
+## Generate Train Image
+
+1. Get coin mask in the source image. [coinmask](https://github.com/CashChangTC/eye4cash/tree/master/gen_train_data)
+
+2. Use mask to remove the background. [removebackground](https://github.com/CashChangTC/eye4cash/tree/master/gen_train_data)
+
+3. Rotate the image. [rotateimage](https://github.com/CashChangTC/eye4cash/tree/master/gen_train_data)
+   
 ## Reference
 
 [aymericdamien/TensorFlow-Examples](https://github.com/aymericdamien/TensorFlow-Examples/blob/master/examples/3_NeuralNetworks/convolutional_network.py)
